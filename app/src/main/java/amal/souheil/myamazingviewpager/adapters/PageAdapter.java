@@ -32,4 +32,13 @@ public class PageAdapter extends FragmentPagerAdapter {
         // 4 - Page to return
         return(PageFragment.newInstance(position, this.colors[position]));
     }
+
+    //La méthode getPageTitle( ) a spécialement été conçue pour
+    // retourner le titre de chacune des pages d'un ViewPager.
+    @Override
+    public CharSequence getPageTitle(int position) {
+        return "Page "+position;
+    }
+
+
 }
