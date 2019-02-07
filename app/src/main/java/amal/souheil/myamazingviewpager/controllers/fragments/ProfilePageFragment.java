@@ -19,6 +19,10 @@ public class ProfilePageFragment extends Fragment {
         // Required empty public constructor
     }
 
+    public static  ProfilePageFragment newInstance() {
+        return (new  ProfilePageFragment());
+    }
+
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,

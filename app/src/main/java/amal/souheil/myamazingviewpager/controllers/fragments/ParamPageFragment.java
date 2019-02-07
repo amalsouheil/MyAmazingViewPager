@@ -19,6 +19,10 @@ public class ParamPageFragment extends Fragment {
         // Required empty public constructor
     }
 
+    public static  ParamPageFragment newInstance() {
+        return (new  ParamPageFragment());
+    }
+
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
